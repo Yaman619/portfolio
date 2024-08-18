@@ -15,13 +15,30 @@
   <link rel="stylesheet" href="css.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yaman</title>
+  <style>
+    @font-face {
+      font-family: 'RockyBilly';
+      src: url('assets/fonts/rockybilly.eot');
+      /* IE9 Compat Modes */
+      src: url('assets/fonts/rockybilly.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('assets/fonts/rockybilly.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('assets/fonts/rockybilly.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('assets/fonts/rockybilly.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('assets/fonts/rockybilly.svg#svgFontName') format('svg');
+      /* Legacy iOS */
+    }
+  </style>
 </head>
 
 <body>
   <nav class="navbar d-none d-lg-block col-11 rounded-pill m-auto my-3 navbar-expand-lg sticky-top bg-primary">
     <div class="container-fluid">
       <a style="font-family: rockybilly, sans-serif;transform: translateY(0.5rem);" class="navbar-brand m-3"
-        href="/">Yaman</a>
+        href="/portfolio3">Yaman</a>
       <ul class="navbar-nav container-fluid justify-content-end">
         <li class="nav-item">
           <a class="nav-link text-white fs-5" href="#Skills">Skills</a>
@@ -36,10 +53,10 @@
     </div>
   </nav>
 
-  <nav class="navbar d-block d-lg-none rounded-pill sticky-top bg-primary"
+  <nav class="navbar d-block d-lg-none rounded-pill static-top bg-primary"
     style="height: 60px; margin-inline: auto; margin-block: 1rem;">
     <a style="font-family: rockybilly, sans-serif;transform: translateY(0.5rem);"
-      class="navbar-brand position-absolute my-2 top-50 start-50 translate-middle fs-6" href="/">
+      class="navbar-brand position-absolute my-2 top-50 start-50 translate-middle fs-6" href="/portfolio3">
       Yaman
     </a>
     <div
@@ -77,26 +94,51 @@
   </div>
   <main role="main" class="container">
     <div id="SkillsContainer">
-      <h3 class="text-white" id="SkillsHeading">
+      <h3 class="text-white" id="Skills">
         Skills
       </h3>
       <div id="ProgrammingLanguages" class="container-md col-sm-10 col-md-8">
-        <h5>Programming Languages</h5><p>Some of the programming laguages I am proficient in, in order of experience.</p>
-      <ul class="row list-group-horizontal text-white fs-4 list-unstyled ">
-        <li class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start">
-          <i class="fa-brands fa-c-sharp lg me-2"></i>
-          C# (&amp; c++)
-        </li>
-        <li class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start">
-          <i class="fa-brands fa-python lg me-2"></i>
-          Python
-        </li>
-        <li class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start">
-          <i class="fa-brands fa-js lg me-2"></i>
-          JavaScript (and HTML/CSS)
-        </li>
-      </ul>
-    </div>
+        <h5>Programming Languages</h5>
+        <p>Some of the programming laguages I am proficient in, in order of experience.</p>
+        <ul class="row list-group-horizontal text-white fs-4 list-unstyled ">
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-solid fa-gears lg me-2"></i>
+            C#/C++
+          </li>
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-brands fa-unity lg me-2"></i>
+            Unity
+          </li>
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-brands fa-python lg me-2"></i>
+            Python
+          </li>
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-brands fa-js lg me-2"></i>
+            JavaScript
+          </li>
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-brands fa-python lg me-2"></i>
+            HTML
+          </li>
+          <li
+            class="col-12 col-md-6 col-lg-4 d-flex align-items-baseline justify-content-start rounded-pill border border-primary"
+            style="padding: 0.5rem 0.75rem; background-color: transparent;">
+            <i class="fa-brands fa-js lg me-2"></i>
+            CSS
+          </li>
+        </ul>
+      </div>
     </div>
 
 
